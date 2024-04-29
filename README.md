@@ -18,7 +18,7 @@ This Kotlin application analyzes Java and Kotlin files in a specified directory 
 git clone https://github.com/your/repository.git
 cd your-project-directory
 ./gradlew build
-
+```
 
 5. Run the application by executing the following command:
 java -jar build/libs/CodeAnalysis-1.0.jar <directory>

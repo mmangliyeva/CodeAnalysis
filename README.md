@@ -29,8 +29,7 @@ Replace `<directory>` with the path to the directory containing the Java files y
 
 
 ## Approach and Design Decisions
-- The application is implemented in Kotlin for conciseness and compatibility with Java.
-- It utilizes the JavaParser library to parse Java files and traverse the abstract syntax tree (AST) to analyze method complexity.
+- The application is implemented in Kotlin
+- It utilizes the JavaParser and Kotlin.psi library to parse Java and Kotlin files and traverse the abstract syntax tree (AST) to analyze method/function complexity.
 - Cyclomatic Complexity is calculated by counting decision points such as if statements, loops, and switch statements.
-- The application follows a modular structure with functions for parsing files, calculating complexity, and analyzing directories.
-- Error handling is implemented to catch and report any parsing or analysis errors.
+- Reporting and error handling mechanisms implemented to report code check results and catch errors

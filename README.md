@@ -25,7 +25,7 @@ cd your-project-directory
 java -jar build/libs/CodeAnalysis-1.0.jar <directory>
 ```
 
-Replace `<directory>` with the path to the directory containing the Java files you want to analyze.
+Replace `<directory>` with the path to the directory containing the files you want to analyze.
 
 
 ## Approach and Design Decisions

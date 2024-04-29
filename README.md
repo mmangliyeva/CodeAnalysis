@@ -21,8 +21,9 @@ cd your-project-directory
 ```
 
 5. Run the application by executing the following command:
+```bash
 java -jar build/libs/CodeAnalysis-1.0.jar <directory>
-
+```
 
 Replace `<directory>` with the path to the directory containing the Java files you want to analyze.
 

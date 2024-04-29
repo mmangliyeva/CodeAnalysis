@@ -29,7 +29,7 @@ class CodeAnalysis(val methodComplexities: Map<String, Int>) {
 
     val mostComplexMethods: Map<String, Int>
         get() {
-            val sortedEntries = methodComplexities.entries.sortedByDescending { it.value }.take(3)
+            val sortedEntries = methodComplexities.toList().sortedByDescending { it.second }.take(3)
             val sortedMap = LinkedHashMap<String, Int>()
             for ((key, value) in sortedEntries) {
                 sortedMap[key] = value

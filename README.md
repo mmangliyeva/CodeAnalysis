@@ -15,14 +15,14 @@ This Kotlin application analyzes Java and Kotlin files in a specified directory 
 
 ```bash
 # Example installation commands
-git clone https://github.com/your/repository.git
-cd your-project-directory
+git clone https://github.com/mmangliyeva/CodeAnalysis.git
+cd CodeAnalysis
 ./gradlew build
 ```
 
 5. Run the application by executing the following command:
 ```bash
-java -jar build/libs/CodeAnalysis-1.0.jar <directory>
+java -jar build/libs/CodeAnalysis-1.0-standalone.jar <directory>
 ```
 
 Replace `<directory>` with the path to the directory containing the files you want to analyze.
